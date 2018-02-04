@@ -1,0 +1,19 @@
+{
+  "name": "cityapp",
+  "version": "1.0.0",
+  "description": "A single page web app using Angular, Express, NodeJS and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "fuse.js": "^3.2.0",
+    "mysql": "^2.15.0"
+  },
+  "author": "Ye Wang",
+  "license": "ISC"
+}
