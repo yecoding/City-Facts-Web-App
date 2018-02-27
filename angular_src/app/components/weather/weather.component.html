@@ -1,0 +1,5 @@
+<!-- <p class="lead">Today's weather in</p> -->
+<!-- <p class="lead font-weight-normal">{{cityname}}</p> -->
+
+<h3 class=" display-5" [hidden]="weather_main ===undefined"><span text-muted>{{weather_main}}</span> {{weather_temp}} &#8451;</h3>
+<h3 class=" display-5" [hidden]="(weather_main !=undefined)">Not Available</h3>

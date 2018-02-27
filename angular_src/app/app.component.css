@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*.pricing-header {
+  max-width: 700px;
+}*/
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.bg-image{
+/*	background: yellow url("image/fantasy-2543658_1920.jpg") no-repeat cover;*/
+/*	background-repeat: no-repeat;
+	background-size: cover;
+*/
+
+	background-image: url("image/city-1031435_1920.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }

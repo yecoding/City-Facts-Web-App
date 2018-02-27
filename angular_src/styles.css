@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 36px; /* Set the fixed height of the footer here */
+  line-height: 36px; /* Vertically center the text there */
+}
+
+.container {
+  width: auto;
+  max-width: 240px;
+  padding: 0 5px;
+}
